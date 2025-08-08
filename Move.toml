@@ -1,0 +1,16 @@
+[package]
+name = "CLI-APTOS"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0x2b652831631cd0885a66e7bba5836494429c4ce0d65642d2cd78c00b178da0d2'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
